@@ -1,0 +1,88 @@
+*
+{
+	margin:					0;
+	padding:				0;
+	font-size:				0;
+}
+
+body
+{
+	display:					flex;
+	justify-content: 			center;
+	align-items: 				center;
+	
+	padding:					5vh 5vw 5vh 5vw;
+	background-color: 			blue;
+}
+
+
+
+#WRAPPER
+{
+	display:					grid;
+	grid-template-rows: 		repeat(5, 1fr);
+	
+	height:						100vh;
+	width:						100vw;
+	
+	background-color:			#303030;
+}
+
+button
+{
+	display:					flex;
+	justify-content: 			center;
+	align-items: 				center;
+	
+	max-height: 				15vh;
+	max-width:					20vw;
+	
+	font-family:				impact;
+	font-size: 					5vh;
+	color:						gray;
+}
+
+#LOC01
+{
+	grid-area: 					#LOC01;
+	
+	display:					grid;
+	
+}
+
+
+#LOC02
+{
+	grid-area: 					#LOC02;
+	
+	display:					grid;
+	grid-template-columns: 		repeat(4, 1fr);
+}
+
+
+#LOC03
+{
+	grid-area: 					#LOC03;
+	
+	display:					grid;
+	grid-template-columns: 		repeat(4, 1fr);
+}
+
+
+#LOC04
+{
+	grid-area: 					#LOC04;
+	
+	display:					grid;
+	grid-template-columns: 		repeat(4, 1fr);
+	
+}
+
+
+#LOC05
+{
+	grid-area:					#LOC05;
+	
+	display:					grid;
+	grid-template-columns: 		repeat(4, 1fr);
+}
